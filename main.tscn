@@ -19,10 +19,10 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.368478, 0, 0 )
 [node name="SensorWithText" parent="." instance=ExtResource( 1 )]
 
 [node name="rp_eric_rigged_001_u3d" parent="." instance=ExtResource( 6 )]
-transform = Transform( 0.771725, 0, 0.635957, 0, 1, 0, -0.635957, 0, 0.771725, -1.13443, 0, 0 )
+transform = Transform( -0.127601, 0, 0.991826, 0, 1, 0, -0.991826, 0, -0.127601, -1.06113, 0, 0 )
 
 [node name="rp_carla_rigged_001_ue4" parent="." instance=ExtResource( 5 )]
-transform = Transform( 0.739608, 0, -0.673038, 0, 1, 0, 0.673038, 0, 0.739608, 0.681761, 0, 0 )
+transform = Transform( 0.067876, 0, -0.997694, 0, 1, 0, 0.997694, 0, 0.067876, 0.681761, 0, 0 )
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.895696, 0.444666, 0, -0.444666, 0.895696, -0.0199885, 1.81359, 1.67003 )

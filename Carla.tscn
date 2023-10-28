@@ -7,3 +7,7 @@
 
 [node name="rp_carla_rigged_001_geo" parent="RootNode" index="2"]
 material/0 = ExtResource( 2 )
+
+[node name="AnimationPlayer" parent="RootNode" index="3"]
+autoplay = "Take 001"
+reset_on_save = false

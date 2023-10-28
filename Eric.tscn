@@ -7,3 +7,6 @@
 
 [node name="rp_eric_rigged_001_geo" parent="RootNode/rp_eric_rigged_001" index="0"]
 material/0 = ExtResource( 2 )
+
+[node name="AnimationPlayer" parent="RootNode" index="1"]
+reset_on_save = false

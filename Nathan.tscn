@@ -11,3 +11,7 @@ albedo_texture = ExtResource( 2 )
 [node name="rp_nathan_animated_003_walking_geo" parent="rp_nathan_animated_003_walking/rp_nathan_animated_003_walking_CTRL/Armature/Skeleton" index="0"]
 layers = 1048575
 material/0 = SubResource( 1 )
+
+[node name="AnimationPlayer" parent="." index="1"]
+autoplay = "Armature|Take 001|BaseLayer"
+reset_on_save = false
